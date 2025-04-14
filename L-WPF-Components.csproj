@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <RootNamespace>L_WPF_Components</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Sys">
+      <HintPath>..\hh\Sys\bin\Debug\Sys.dll</HintPath>
+    </Reference>
+    <Reference Include="WpfExtend">
+      <HintPath>..\hh\Wpf.Converter\bin\Debug\WpfExtend.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
